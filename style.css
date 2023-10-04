@@ -1,0 +1,315 @@
+
+body{
+    font-family: "Open Sans", sans-serif;
+}
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    margin-right: 110px;
+    list-style: none;
+}
+.nav li{
+    padding-right: 30px;
+}
+.nav li a{
+    text-decoration: none; 
+    font-size: 18px;
+}
+.gray{
+    color: rgb(77, 77, 77);
+}
+
+/*----------------------------------------------------------WELCOMING----------------------------------------------------------------*/
+
+.containerIMG{
+    display: flex;
+    background-image: url(img/woman-at-work.jpg);
+    width: 100%;
+    height: 600px;
+    align-items: center;
+    justify-content: flex-start;
+    background-size: cover;
+    background-position: 50% 40%;
+}
+.container1{
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.557);
+    display: flex;
+    width: 500px;
+    height: 370px;
+    flex-direction: column;
+    margin-left: 100px;
+    border-radius: 5px;
+}
+.container1 h2{
+    font-size: 15px;
+    padding: 12px 0px 0px 15px;
+}
+.container1 h1{
+    font-size: 25px;
+    padding: 0px 0px 5px 15px;
+}
+.yellow{
+    color: rgb(250, 175, 0);
+    text-decoration: none;
+}
+.container1 p{
+    text-align: start;
+    padding: 0px 15px 5px 15px;
+}
+.button1{
+    align-items: center;
+    width: 100px;
+    height: 50px;
+    background-color: #00a595;
+    border: 0px;
+    border-radius: 3px;
+    font-size: 16px;
+}
+.buttompai{
+    padding-left: 12px;
+}
+
+/*----------------------------------------------------------ORÇAMENTOS----------------------------------------------------------------*/
+
+.orçamentotexto{
+    margin-top: 30px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    line-height: 1.5;
+}
+.orçamentotexto h1{
+    font-size: 40px;
+    line-height: 1.0;
+    margin-bottom: 10px;
+}
+.tresdivs{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    justify-content: center;
+    gap: 18px;
+}
+.tresdivs div{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 290px;
+    border-radius: 3px;
+}
+.tresdivs img{
+    border-radius: 100%;
+    width: 88px;
+    height: 80px;
+    padding: 12px 0 0 15px ;
+}
+.consultando{
+    background-color: #00a595;
+    color: white;
+}
+.estrategia{ 
+    background-color: #f2f2f2;
+}
+.missao{
+    background-color: #f1a40e;
+    color: white;
+}
+.titulo{
+    font-size: 22px;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+.textsample{
+    padding-left: 15px;
+    line-height: 1.4;
+    font-size: 18px;
+}
+
+/*----------------------------------------------------------SOBRENÓS----------------------------------------------------------------*/
+.cinza{
+    background-color: #f2f2f2;
+    height: 930px;
+}
+.sobrenós{
+    display: flex;
+    width: 100%;
+    height: 700px;
+    margin-top: 20px;
+    gap: 90px;
+    margin-bottom: -50px;
+}
+.sbtext{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    justify-content: flex-start;
+    line-height: 2.0;
+    margin-left: 140px;
+    font-size: 18px;
+}
+.sbtext p{
+    color: rgb(61, 61, 61);
+}
+.sbtext h1{
+    font-size: 40px;
+    margin-bottom: -16px;
+}
+.sbtext h2{
+    font-size: 22px;
+    margin-bottom: -6px;
+}
+
+.pic{
+    display: flex;
+    margin-top: 90px;
+    margin-right: 140px;
+}
+.homem{
+    border-radius: 100%;
+    height: 410px;
+    width: 450px;
+}
+
+.partebrancaPAI{
+    display: flex;
+    justify-content: center;
+}
+.partebranca{
+    background-color: white;
+    line-height: 1.5;
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px 20px 20px 20px;
+    font-size: 20px;
+    font-weight: 100;
+    color: rgb(61, 61, 61);
+}
+/*----------------------------------------------------------SOBRENÓS----------------------------------------------------------------*/
+.verde{
+    background-color: #00a595;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+    margin-bottom: 60px;
+    color: white;
+}
+.sbtext2{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    justify-content: flex-start;
+    line-height: 2.0;
+    margin-right: 140px;
+    font-size: 14px;
+}
+.mulher{
+    border-radius: 50%;
+    height: 410px;
+    width: 410px;
+    margin: -45px 0px 30px 140px;
+    object-fit: cover;
+    
+}
+.sbtext2 h1{
+    font-size: 40px;
+}
+.button2{
+    align-items: center;
+    width: 100px;
+    height: 50px;
+    background-color: rgb(250, 175, 0);
+    border: 0px;
+    border-radius: 3px;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+/*----------------------------------------------------------COMPANIES----------------------------------------------------------------*/
+.companies h1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.companies img{
+    height: 80px;
+    width: 95px;
+    display: flex;
+}
+.row1{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+.row2{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+.imgdiv{
+    display: flex;
+    background-color: #f2f2f2;
+    height: 130px;
+    width: 270px;
+    justify-content: center;
+    align-items: center;
+}
+/*----------------------------------------------------------COMPANIES----------------------------------------------------------------*/
+.director{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    background-color: #f2f2f2;
+}
+.W-director{ /*mulher*/
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    justify-content: center;
+    align-items: center;
+}
+.M-director{ /*homem*/
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    justify-content: center;
+    align-items: center;
+}
+.CEOs{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    margin-top: 30px;
+    object-fit: cover;
+    border: 4px solid transparent;
+    border-radius: 50%;
+    background: 
+        linear-gradient(to right, white, white), 
+        linear-gradient(to right, #00a595 , rgb(250, 175, 0)); 
+    background-clip: padding-box, border-box;
+    background-origin: padding-box, border-box;
+}
+.signature{
+    width: 300px;
+    height: 100px;
+    margin-top: 20px;
+    object-fit: contain;
+}
+.desc{
+    text-align: center;
+    padding-top: 20px;
+    line-height: 1.8;
+    font-size: 13.5px;
+    width: 86.7%;
+}
+
+
